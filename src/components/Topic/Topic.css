@@ -1,7 +1,6 @@
 .topic {    
     border: 1px solid  #d9daeb;
-    border-radius: 10px;
-    margin: 15px;
+    border-radius: 10px;    
     box-shadow: 5px 5px 5px rgb(235, 233, 233);
     padding: 5px;    
 }
@@ -30,9 +29,3 @@
     cursor: pointer;    
 }
 
-
-@media screen and (min-width: 576px ) and (max-width: 767px) {
-    .topic {        
-        margin: 10px;        
-    }
-}

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Topic.css'
 
 const Topic = ({topic}) => {
-    const my_navigate = useNavigate();    
+    const my_navigate = useNavigate();  
 
     const showTopicDetails = () => {                
         my_navigate(`/topic/${topic.id}`);
