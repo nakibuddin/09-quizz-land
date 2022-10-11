@@ -1,17 +1,17 @@
 .page-not-found {
-    border: 1px solid #5D5FEF;    
-    width: 100%;
-    height: 100%;
+    border: 1px solid  #d9daeb;
+    border-radius: 10px;    
+    box-shadow: 5px 5px 5px rgb(235, 233, 233);
+    padding: 30px;    
 
-    /* height: 500px; */
+    position: absolute;
+    top: 25%;
+    left: 36%;
 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .page-not-found button {
-    width: 15%;    
+    width: 80%;    
     margin: 15px 10% 25px 10%;
     padding: 10px 0 10px 0;
     border-radius: 10px;
@@ -21,4 +21,22 @@
     color: white;
     border: none;
     cursor: pointer;  
+}
+
+@media screen and (min-width: 0px ) and (max-width: 575px) {
+    .page-not-found {
+        left: 16%;
+    }
+}
+
+@media screen and (min-width: 576px ) and (max-width: 767px) {
+    .page-not-found {
+        left: 25%;
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 991px) {
+    .page-not-found {
+        left: 28%;
+    }
 }

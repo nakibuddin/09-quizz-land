@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 12% 0 12%;
+    padding: 20px 13% 0 14%;
     background-color: white;
     box-shadow: 0 0px 20px   #a2a4f8;
 }
@@ -24,4 +24,31 @@
     background-color: #5D5FEF;
     color: white !important;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 0px ) and (max-width: 575px) {
+    .navbar {
+        padding: 20px 5% 0 5%;
+    }
+    .navbar a {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 576px ) and (max-width: 767px) {
+    .navbar {
+        padding: 20px 5% 0 5%;
+    }
+    .navbar a {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 991px) {
+    .navbar {
+        padding: 20px 7% 0 8%;
+    }
+    .navbar a {
+        margin-left: 10px;
+    }
 }

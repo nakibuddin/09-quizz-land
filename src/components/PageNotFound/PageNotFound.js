@@ -11,12 +11,10 @@ const PageNotFound = () => {
         my_navigate('/');
     }
 
-    return (
+    return (        
         <div className='page-not-found'>
-            <div>
-                <h2>Page not found: 404</h2>
-                <button onClick={showTopicDetails}>Go to Home Page</button>
-            </div>
+            <h1>Page not found: 404</h1>
+            <button onClick={showTopicDetails}>Go to Home Page</button>            
         </div>
     );
 };
