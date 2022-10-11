@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 12% 0 12%;
+    background-color: white;
+    box-shadow: 0 0px 20px   #a2a4f8;
+}
+.navbar h2 {
+    margin-top: 0;
+    color: #5D5FEF;
+}
+.navbar a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #5D5FEF;
+    font-weight: bold;  
+    padding: 5px 15px 7px 15px ;  
+}
+.navbar a:hover {
+    color: orange;    
+}
+
+.active {
+    background-color: #5D5FEF;
+    color: white !important;
+    border-radius: 10px;
+}
