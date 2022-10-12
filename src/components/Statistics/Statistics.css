@@ -1,27 +1,39 @@
 .statistics {
-    position: absolute;
+    
+    max-width: 32%;    
+    margin: auto;
+    margin-top: 5%;
+    /* border: 1px solid  #cfd0e6; */
+
+    /* position: absolute;
     top: 20%;
-    left: 28%;  
-    /* 36 */
+    left: 28%;   */    
 }
+
+/* .chart {
+    height: 300px;
+    width: 300px;
+} */
+
 .statistics h4 {
-    margin-left: 6%;
+    /* text-align: left; */
+    /* margin-right: 7%;     */
 }
 
-@media screen and (min-width: 0px ) and (max-width: 575px) {
+@media screen and (min-width: 0px ) and (max-width: 575px) {    /* Device: Surface duo */
     .statistics {
-        left: 1%;
+        max-width: 75%;    
     }
 }
 
-@media screen and (min-width: 576px ) and (max-width: 767px) {
+@media screen and (min-width: 576px ) and (max-width: 767px) {  /* Device: Surface duo, landscape */
     .statistics {
-        left: 13%;
+        max-width: 55%;    
     }
 }
 
-@media screen and (min-width: 768px ) and (max-width: 991px) {
+@media screen and (min-width: 768px ) and (max-width: 991px) {  /* Device: Ipad Air */
     .statistics {
-        left: 17%;
+        max-width: 47%;    
     }
 }

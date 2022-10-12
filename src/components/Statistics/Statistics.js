@@ -12,7 +12,7 @@ const Statistics = () => {
             <h4>Comparison of total number of question in every topic</h4>
             <br /> <br /> <br />
 
-            <BarChart width={500} height={300} data={data}>
+            <BarChart width={350} height={300} data={data}>
                 <Bar dataKey="total" fill="#5D5FEF"></Bar>
                 <XAxis dataKey="name"></XAxis>
                 <YAxis dataKey="total"></YAxis>            
