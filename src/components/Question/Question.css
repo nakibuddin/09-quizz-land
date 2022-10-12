@@ -33,3 +33,28 @@
 .option-container small {
     margin-left: 5px;
 }
+
+
+@media screen and (min-width: 0px ) and (max-width: 575px) {    /* Device: Surface duo */
+    .question-container {        
+        margin: 0px 7% 30px 7%;
+    } 
+    .option-container {        
+        grid-template-columns: 1fr;     
+    }   
+}
+
+@media screen and (min-width: 576px ) and (max-width: 767px) {  /* Device: Surface duo, landscape */
+    .question-container {        
+        margin: 0px 18% 30px 18%;
+    }
+    .option-container {       
+        grid-template-columns: 1fr;     
+    }  
+}
+
+@media screen and (min-width: 768px ) and (max-width: 991px) {  /* Device: Ipad Air */
+    .question-container {        
+        margin: 0px 14% 30px 14%;
+    }
+}

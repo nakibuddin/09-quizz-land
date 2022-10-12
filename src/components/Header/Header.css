@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (min-width: 768px ) and (max-width: 991px) {
+@media screen and (min-width: 768px ) and (max-width: 991px) {   /* Device: Ipad Air */
     .header {        
         margin: 0 6% 0 6%;    
     }
