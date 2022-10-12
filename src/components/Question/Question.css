@@ -14,6 +14,7 @@
 .question-header-container{
     display: grid;
     grid-template-columns: 29fr 1fr;
+    gap: 15px;
     
     /* display: flex;
     justify-content: space-between; */
@@ -48,6 +49,10 @@
 .option-container small {
     margin-left: 5px;
 }
+.option-container input {
+    cursor: pointer;
+}
+
 
 
 @media screen and (min-width: 0px ) and (max-width: 575px) {    /* Device: Surface duo */
@@ -72,4 +77,4 @@
     .question-container {        
         margin: 0px 14% 30px 14%;
     }
-}
+}   

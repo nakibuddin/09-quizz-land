@@ -5,25 +5,20 @@ import 'react-toastify/dist/ReactToastify.css';
 import { EyeIcon } from '@heroicons/react/24/solid'
 
 const Question = (props) => {
+    const qnNo = props.qnNo;
     const {options, id, question, correctAnswer} = props.questionData;
-    const [selectedValue, setSelectedValue] = useState();    
-
-    // console.log(correctAnswer);
+    const [selectedValue, setSelectedValue] = useState();        
 
     useEffect( () => {
-        if( (selectedValue !== undefined) && (selectedValue === correctAnswer) ) {
-            // console.log('answer is correct');
-            toast('Correct answer', {position: toast.POSITION.TOP_CENTER}); 
-            
+        if( (selectedValue !== undefined) && (selectedValue === correctAnswer) ) {            
+            toast('Correct answer', {position: toast.POSITION.TOP_CENTER});             
         }
-        else if (selectedValue !== undefined)  {
-            // console.log(`wrong answer, you said ${selectedValue}`);
+        else if (selectedValue !== undefined)  {            
             toast('Wrong answer', {position: toast.POSITION.TOP_CENTER}); 
         }
     },[selectedValue])  
 
-    const showAnswer = () => {        
-        // console.log(correctAnswer);
+    const showAnswer = () => {                
         toast(`Answer: ${correctAnswer}`, {position: toast.POSITION.TOP_CENTER}); 
     }
 
@@ -31,8 +26,8 @@ const Question = (props) => {
         <div className='question-container'>
             
             <div className="question-header-container">
-                <h4>Question 1: {question}</h4>            
-                <EyeIcon onClick={showAnswer} className="eye-icon"/>
+                <h4>Question {qnNo}: {question}</h4>            
+                <EyeIcon onClick={showAnswer} className="eye-icon" title='Show the correct answer'/>
             </div>
             
             <div className='option-container'>
@@ -42,17 +37,17 @@ const Question = (props) => {
                 </div>                
 
                 <div>
-                <input type="radio"  name={id} value={options[1]} onChange={e => setSelectedValue(e.target.value)} />
+                    <input type="radio"  name={id} value={options[1]} onChange={e => setSelectedValue(e.target.value)} />
                     <small>{options[1]}</small>	
                 </div>
 
                 <div>
-                <input type="radio"  name={id} value={options[2]} onChange={e => setSelectedValue(e.target.value)} />
+                    <input type="radio"  name={id} value={options[2]} onChange={e => setSelectedValue(e.target.value)} />
                     <small>{options[2]}</small>	
                 </div>
 
                 <div>
-                <input type="radio"  name={id} value={options[3]} onChange={e => setSelectedValue(e.target.value)} />
+                    <input type="radio"  name={id} value={options[3]} onChange={e => setSelectedValue(e.target.value)} />
                     <small>{options[3]}</small>	
                 </div>                                                                
             </div>

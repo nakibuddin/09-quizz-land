@@ -1,0 +1,41 @@
+.topics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 12% 0 12%;  
+    gap: 3%;      
+}
+
+.btn-explore-more {
+    max-width: 245px;    
+    margin: 15px 10% 25px 10%;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    
+    font-size: 17px;
+    background-color: #5D5FEF;
+    color: white;
+    border: none;
+    cursor: pointer;  
+}
+
+
+@media screen and (min-width: 0px ) and (max-width: 575px) {    /* Device: Surface duo */
+    .topics {
+        grid-template-columns: 1fr;
+        margin: 0 5% 0 5%;    
+    }
+}
+
+@media screen and (min-width: 576px ) and (max-width: 767px) {  /* Device: Surface duo, landscape */
+    .topics {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5% 0 5%;    
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 991px) {  /* Device: Ipad Air */
+    .topics {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 6% 0 6%;    
+    }
+}

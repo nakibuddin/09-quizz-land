@@ -9,7 +9,8 @@ const Navbar = () => {
                 <h2>QuizzLand</h2>
             </div>
             <div>
-                <NavLink className={ ({isActive}) => isActive ? 'active' : undefined } to='/topics'>Topics</NavLink>
+                <NavLink className={ ({isActive}) => isActive ? 'active' : undefined } to='/home'>Home</NavLink>
+                <NavLink to='/topics'>Topics</NavLink>
                 <NavLink to='/statistics'>Statistics</NavLink>
                 <NavLink to='/blog'>Blog</NavLink>                
             </div>
