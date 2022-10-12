@@ -1,0 +1,21 @@
+
+.header {
+    /* background-image: url("/header.jpg"); */
+
+    /* opacity: .8;    */
+    /* height: 524px; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+
+    /* https://media.washtimes.com/media/image/2020/03/19/FamousQuotesFinal-900.jpg */
+    margin: 0 12% 0 12%;  
+}
+
+.header h1 {
+    color: #5D5FEF;
+    font-size: 45px;    
+}
+.header h2 {    
+    color: #5D5FEF;
+    font-size: 30px;
+}

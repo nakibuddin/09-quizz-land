@@ -11,7 +11,7 @@ const Navbar = () => {
             <div>
                 <NavLink className={ ({isActive}) => isActive ? 'active' : undefined } to='/topics'>Topics</NavLink>
                 <NavLink to='/statistics'>Statistics</NavLink>
-                <NavLink to='/Blog'>Blog</NavLink>
+                <NavLink to='/blog'>Blog</NavLink>                
             </div>
         </div>
     );

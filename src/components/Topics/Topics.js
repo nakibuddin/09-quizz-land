@@ -9,9 +9,9 @@ const Topics = () => {
     const topics = data;
 
     return (
-        <div>
+        <div>               
             <Header></Header>            
-
+            <br />  <br />
             <div className="topics">
                 {
                     topics.map(topic => <Topic key={topic.id} topic={topic}></Topic>)
