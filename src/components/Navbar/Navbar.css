@@ -27,6 +27,7 @@
     border-radius: 10px;
 }
 
+
 @media screen and (min-width: 0px ) and (max-width: 575px) {
     .navbar {        
         padding: 20px 4% 0 5%;        

@@ -1,6 +1,6 @@
 # Project Name: QuizzLand
 
-Live site link: [https://quizz-land-09.netlify.app/](https://quizz-land-09.netlify.app/).
+Live site link: [https://quizz-land-09.netlify.app/](https://09-quizz-land.netlify.app/).
 
 ## Project Description:
 

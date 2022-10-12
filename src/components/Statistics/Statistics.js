@@ -5,7 +5,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 
 const Statistics = () => {
     const {data} = useLoaderData();         
-    console.log(data);
+    // console.log(data);
 
     return (
         <div className='statistics'>
