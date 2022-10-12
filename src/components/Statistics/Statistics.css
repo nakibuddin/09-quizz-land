@@ -1,0 +1,27 @@
+.statistics {
+    position: absolute;
+    top: 20%;
+    left: 28%;  
+    /* 36 */
+}
+.statistics h4 {
+    margin-left: 6%;
+}
+
+@media screen and (min-width: 0px ) and (max-width: 575px) {
+    .statistics {
+        left: 1%;
+    }
+}
+
+@media screen and (min-width: 576px ) and (max-width: 767px) {
+    .statistics {
+        left: 13%;
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 991px) {
+    .statistics {
+        left: 17%;
+    }
+}
