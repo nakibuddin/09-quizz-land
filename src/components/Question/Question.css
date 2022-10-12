@@ -11,6 +11,20 @@
     margin-bottom: 20px;
 }
 
+.question-header-container{
+    display: grid;
+    grid-template-columns: 29fr 1fr;
+    
+    /* display: flex;
+    justify-content: space-between; */
+}
+.eye-icon {
+    height: 20px;
+    width: 20px;    
+    margin-top: 10px;    
+}
+
+
 .option-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
